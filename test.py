@@ -1,10 +1,11 @@
 import pandas as pd
-from Learning import DT_Learn
 import sklearn.utils as sku
+import numpy as np
+from Learning import DT_Learn
 from Testing import TestData
 from Pruning import Pruning
 from Tree import tree
-import numpy as np
+
 
 
 print("Dataset Plant")
